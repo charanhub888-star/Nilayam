@@ -1,0 +1,1199 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Navigation Bar */
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 50px;
+
+    background:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+
+    z-index:1000;
+
+    box-sizing:border-box;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    color:#2E7D32;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    margin-left:25px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.menu a:hov.heroer{
+
+    color:#2E7D32;
+
+}
+.logo{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+}
+
+.menu a:hover{
+    color:yellow;
+}
+
+/* Hero Section */
+
+{
+    background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("../images/hero.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size:70px;
+    font-weight:bold;
+    color:white;
+    text-shadow:3px 3px 10px rgba(0,0,0,0.8);
+    margin-bottom:20px;
+}
+
+.hero{
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("../images/hero.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+/* Search Box */
+
+.search-box{
+
+    margin-top:40px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+}
+
+.search-box input{
+
+    width:220px;
+
+    padding:15px;
+
+    margin:10px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+}
+
+.search-box button{
+
+    padding:15px 30px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+.search-box input{
+    padding:15px;
+    width:220px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.search-box button{
+    padding:16px 35px;
+    background:#2E7D32;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.search-box button:hover{
+    background:#1B5E20;
+    transform:scale(1.05);
+}
+/* Featured Homes */
+
+.featured{
+
+    padding:70px 50px;
+
+    background:#f5f5f5;
+
+}
+
+.featured h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    color:#2E7D32;
+
+    margin-bottom:40px;
+
+}
+
+.home-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.home-card{
+
+    width:320px;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+
+    transition:0.3s;
+
+}
+
+.home-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.home-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.home-card h3{
+
+    margin:20px 0 10px;
+
+    color:#2E7D32;
+
+}
+
+.home-card p{
+
+    color:#555;
+
+    margin:10px;
+
+}
+
+.home-card button{
+
+    margin:20px;
+
+    padding:12px 25px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.home-card button:hover{
+
+    background:#1B5E20;
+
+}
+/* Why Choose Nilayam */
+
+.why-us{
+    padding:70px 50px;
+    background:white;
+}
+
+.why-us h2{
+    text-align:center;
+    font-size:40px;
+    color:#2E7D32;
+    margin-bottom:50px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.feature-box{
+    width:260px;
+    background:#F5F5F5;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-10px);
+}
+
+.feature-box h3{
+    color:#2E7D32;
+    margin-bottom:15px;
+}
+
+.feature-box p{
+    color:#555;
+    font-size:16px;
+    line-height:1.5;
+}
+/* Statistics */
+
+.stats{
+
+    background:#2E7D32;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    flex-wrap:wrap;
+
+    padding:60px;
+
+}
+
+.stat-box{
+
+    text-align:center;
+
+}
+
+.stat-box h2{
+
+    font-size:50px;
+
+    margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+    color:white;
+
+    font-size:20px;
+
+}
+/* Footer */
+
+.footer{
+    background:#1B1B1B;
+    color:white;
+    padding:50px 30px 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-bottom:30px;
+}
+
+.footer h3{
+    color:#4CAF50;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#dddddd;
+    line-height:1.6;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links a{
+    color:#dddddd;
+    text-decoration:none;
+    margin:5px 0;
+}
+
+.footer-links a:hover{
+    color:#4CAF50;
+}
+
+.footer hr{
+    border:1px solid #444;
+    margin:20px 0;
+}
+
+.copyright{
+    text-align:center;
+    color:#bbbbbb;
+}
+/* How It Works */
+
+.how-it-works{
+    padding:80px 50px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.how-it-works h2{
+    color:#2E7D32;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.step{
+    width:300px;
+    background:#f8f8f8;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.step:hover{
+    transform:translateY(-8px);
+}
+
+.step-number{
+    width:60px;
+    height:60px;
+    background:#2E7D32;
+    color:white;
+    border-radius:50%;
+    margin:auto;
+    font-size:28px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.step h3{
+    color:#2E7D32;
+    margin-bottom:15px;
+}
+
+.step p{
+    color:#555;
+    line-height:1.6;
+}
+/* Login Choice */
+
+.login-choice{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+background:#f5f5f5;
+
+}
+
+.login-choice h1{
+
+font-size:55px;
+
+color:#2E7D32;
+
+}
+
+.login-choice p{
+
+font-size:22px;
+
+margin-bottom:40px;
+
+}
+
+.choice-container{
+
+display:flex;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.choice-card{
+
+background:white;
+
+padding:40px;
+
+width:320px;
+
+border-radius:20px;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.choice-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.choice-card h2{
+
+color:#2E7D32;
+
+}
+
+.choice-card button{
+
+margin-top:20px;
+
+padding:14px 30px;
+
+background:#2E7D32;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+font-size:18px;
+
+}
+
+.choice-card button:hover{
+
+background:#1B5E20;
+
+}
+/* Student Login */
+
+.login-page{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:#F5F5F5;
+
+}
+
+.login-box{
+
+background:white;
+
+padding:45px;
+
+width:420px;
+
+border-radius:20px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+text-align:center;
+
+}
+
+.login-box h1{
+
+color:#2E7D32;
+
+margin-bottom:10px;
+
+}
+
+.login-box p{
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.login-box input{
+
+width:100%;
+
+padding:15px;
+
+margin:12px 0;
+
+font-size:17px;
+
+border-radius:10px;
+
+border:1px solid #ccc;
+
+box-sizing:border-box;
+
+}
+
+.login-box button{
+
+width:100%;
+
+padding:15px;
+
+background:#2E7D32;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+font-size:18px;
+
+cursor:pointer;
+
+margin-top:15px;
+
+}
+
+.login-box button:hover{
+
+background:#1B5E20;
+
+}
+
+.register-link{
+
+margin-top:25px;
+
+}
+
+.register-link a{
+
+text-decoration:none;
+
+color:#2E7D32;
+
+font-weight:bold;
+
+}
+/* Owner Dashboard */
+
+.dashboard-header{
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+.dashboard{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+    padding:60px;
+
+    background:#f5f5f5;
+
+}
+
+.dashboard-card{
+
+    width:280px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h2{
+
+    color:#2E7D32;
+
+}
+
+.dashboard-card p{
+
+    color:#555;
+
+    margin:20px 0;
+
+}
+
+.dashboard-card button{
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+.dashboard-card button:hover{
+
+    background:#1B5E20;
+
+}
+/* Add Property Form */
+
+.property-form{
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:50px;
+
+    background:#f5f5f5;
+
+}
+
+.property-form form{
+
+    width:600px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.property-form label{
+
+    display:block;
+
+    margin-top:20px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+.property-form input,
+.property-form select,
+.property-form textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    box-sizing:border-box;
+
+}
+
+.property-form button{
+
+    margin-top:25px;
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.property-form button:hover{
+
+    background:#1B5E20;
+
+}
+.dashboard-btn{
+
+display:inline-block;
+
+padding:12px 28px;
+
+background:#2E7D32;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+margin-top:20px;
+
+transition:.3s;
+
+}
+
+.dashboard-btn:hover{
+
+background:#1B5E20;
+
+transform:scale(1.05);
+
+}
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 50px;
+
+    background:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+
+    z-index:1000;
+
+    box-sizing:border-box;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:bold;
+
+    color:#2E7D32;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    margin-left:25px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#2E7D32;
+
+}
+/* Search Results */
+
+.search-results{
+
+    padding:50px;
+
+    background:#f5f5f5;
+
+}
+
+.property-card{
+
+    display:flex;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.property-card img{
+
+    width:320px;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.property-details{
+
+    padding:25px;
+
+}
+
+.property-details h2{
+
+    color:#2E7D32;
+
+}
+
+.property-details p{
+
+    margin:10px 0;
+
+}
+/* Property Details */
+
+.property-page{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:40px;
+
+padding:50px;
+
+background:#f5f5f5;
+
+justify-content:center;
+
+}
+
+.property-image img{
+
+width:500px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.property-info{
+
+width:500px;
+
+}
+
+.property-info h2{
+
+color:#2E7D32;
+
+font-size:35px;
+
+}
+
+.property-info h3{
+
+margin-top:20px;
+
+}
+
+.property-info ul{
+
+padding-left:20px;
+
+}
+
+.property-info li{
+
+margin:12px 0;
+
+font-size:18px;
+
+}
+/* Contact Owner */
+
+.contact-owner{
+
+display:flex;
+
+justify-content:center;
+
+padding:60px;
+
+background:#f5f5f5;
+
+}
+
+.owner-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+width:380px;
+
+text-align:center;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.owner-card img{
+
+width:150px;
+
+height:150px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:20px;
+
+}
+
+.owner-card h2{
+
+color:#2E7D32;
+
+}
+/* ================= POPULAR CITIES ================= */
+
+.cities{
+
+    padding:70px 10%;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.city-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+.city-card{
+
+    width:220px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:0.3s;
+
+}
+
+.city-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.city-card h3{
+
+    color:#2E7D32;
+
+    margin-bottom:10px;
+
+}
+
+.city-card p{
+
+    color:#666;
+
+}
