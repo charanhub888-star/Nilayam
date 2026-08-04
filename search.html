@@ -17,57 +17,31 @@
 
 <header class="dashboard-header">
 
-    <h1>🏠 Available Homes</h1>
+    <h1>🏠 Search Properties</h1>
 
 </header>
 
-<section class="search-results">
+<section class="search-box">
 
-    <div class="property-card">
+    <input
+        type="text"
+        id="searchCity"
+        placeholder="Enter City (Ex: Hyderabad)">
 
-        <img src="images/hero.jpeg" alt="House">
+    <button onclick="searchProperties()">
 
-        <div class="property-details">
+        🔍 Search
 
-            <h2>2BHK Apartment</h2>
-
-            <p>📍 Hyderabad</p>
-
-            <p>💰 ₹8,500 / Month</p>
-
-            <p>⭐ 4.8 Rating</p>
-
-            <p>🏠 Owner Verified</p>
-
-            <a href="property-details.html" class="dashboard-btn">View Details</a>
-
-        </div>
-
-    </div>
-
-    <div class="property-card">
-
-        <img src="images/hero.jpeg" alt="House">
-
-        <div class="property-details">
-
-            <h2>PG for Students</h2>
-
-            <p>📍 Bengaluru</p>
-
-            <p>💰 ₹6,500 / Month</p>
-
-            <p>⭐ 4.6 Rating</p>
-
-            <p>📶 Free Wi-Fi</p>
-
-            <a href="#" class="dashboard-btn">View Details</a>
-
-        </div>
-
-    </div>
+    </button>
 
 </section>
+
+<section class="search-results">
+
+    <div id="searchPropertyList"></div>
+
+</section>
+<script src="js/script.js"></script>
 
 </body>
 

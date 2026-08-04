@@ -3,13 +3,13 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Student Login | Nilayam</title>
+    <title>Student Login | Nilayam</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -17,24 +17,47 @@
 
 <section class="login-page">
 
-<div class="login-box">
+    <div class="login-box">
 
-<h1>👨‍🎓 Student Login</h1>
+        <h1>👨‍🎓 Student Login</h1>
 
-<p>Welcome back to Nilayam</p>
+        <p>Welcome back to Nilayam</p>
 
-<input type="email" placeholder="Enter Email">
+        <input type="email"
+               placeholder="Enter Email"
+               required>
 
-<input type="password" placeholder="Enter Password">
+        <input type="password"
+               placeholder="Enter Password"
+               required>
 
-<button>Login</button>
+        <button onclick="window.location.href='student-dashboard.html'">
 
-<p class="register-link">
-Don't have an account?
-<a href="student-register.html">Register</a>
-</p>
+            Login
 
-</div>
+        </button>
+
+        <p class="register-link">
+
+            Don't have an account?
+
+            <a href="student-register.html">
+
+                Register
+
+            </a>
+
+        </p>
+
+        <br>
+
+        <a href="index.html" class="dashboard-btn">
+
+            ⬅ Back to Home
+
+        </a>
+
+    </div>
 
 </section>
 
